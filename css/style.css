@@ -1,0 +1,108 @@
+*{
+    margin-top:0;
+    font-family:"Arial";
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+.container{
+    display:flex;
+    flex-direction:row;
+    width:80%;
+    margin:0 auto;
+}
+.section1{
+    background-image:url("../image/photo1.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    width: 100%;
+    background-position: center;
+    padding:70px 0;
+}
+.box1{
+  display:flex;
+  flex-direction:column;
+  background-color:rgba(255,255,255,0.8);
+  padding: 40px;
+  width: 70%;
+  margin: 0 auto;  
+  border-radius: 8px;
+}
+.box1 .title{
+    font-size:24px;
+    color:#006766;
+}
+.box1 .box1__text{
+    margin-bottom:24px;
+    font-size: 14px;
+    text-align: justify;
+}
+.box1 .contact-info{
+    margin-bottom:10px;
+    font-size: 14px;
+}
+.box1 .contact-info span{
+    color:#006766;
+    margin-left: 5px;
+}
+.box1 button{
+    color:#fff;
+    background-color: #006766;
+    padding: 18px 50px;
+    font-size:17px;
+    text-align:center;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top:24px;
+}
+.box1 a{
+    align-self:center;
+}
+.section2{
+    background-image:url("../image/photo2.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    width: 100%;
+    background-position: center;
+    padding:70px 0;
+}
+.box2{
+    padding:40px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius:5px;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+.box2 form{
+    display:flex;
+    flex-direction:column;
+}
+.box2 form input{
+    border:none;
+    border-bottom:1px solid #9b9a79;
+    background-color: inherit;
+    padding: 15px 0;
+    color: white;
+    outline:none;
+}
+.box2 form input[type="submit"]{
+    border-bottom:none;
+    align-self: flex-end;
+    opacity: 0.5;
+}
+.box2 form input::placeholder{
+    color:rgba(255,255,255,0.5);
+}
+.section2 textarea{
+    border: none;
+    outline: none;
+    background-color: inherit;
+    color: white;
+    border-bottom: 1px solid #9b9a79;
+    padding-top: 25px;
+    resize: none;
+    opacity: 0.5;
+}
